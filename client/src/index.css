@@ -1,0 +1,42 @@
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Google Fonts */
+
+:root {
+  --primaryColor:#050505;
+  --secondaryColor: #65676b;
+  --bgGrey:#65676b;
+  --inputBackground: #f0f2f5;
+  --bodyBackground:#f0f2f5;
+  --hoverGreyColor:#dfdfdf3d;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* reqular Styles
+ */
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  color: #050505;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bodyBackground);
+}
+.fo-pleywrite {
+  font-family: "Playwrite GB S", sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
